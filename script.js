@@ -18,18 +18,18 @@ const usuario = {
   estudante: false
 };
 
-usuario.idade = usuario.idade.replace("19", "21");
+usuario.idade = 20;
 
 console.log(usuario);
 */
 /*
 let numerodomal = 15.2564234
-resultado = numerodomal.toFixed(2) 
+resultado = numerodomal.toFixed((2))
 console.log(resultado)
 */
 /*
-String = "eu sou minusculo kk"
-nah = String.toUpperCase(0);
+let frase = "eu sou minusculo kk"
+nah = frase.toUpperCase();
 console.log(nah)
 */
 /*
@@ -67,3 +67,7 @@ const resultado = frase.split(" ");
 
 console.log(resultado);
 */
+
+for (let i = 0; i < 5; i++) {
+  console.log("|----------|")
+}
